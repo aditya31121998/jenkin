@@ -1,8 +1,6 @@
 //SCRIPTED
 //DECLARATIVE
 
-
-
 pipeline {
 	
 	agent any
@@ -10,32 +8,25 @@ pipeline {
 	
 		stage('Build')
 		{
+			steps {
 			echo "Build"
+			}
 			
 		}
 		
 		stage('Test')
 		{
-			
+			steps {
 			echo "Test"
+			}
 			
 		}
 		
 		stage('Int Test')
 		{
-		
+			steps {
 			echo "Int Test"
+			}
 		}
-	
-	
-	
-	
-	
-	
 	}
-	
-	
-	
-	
-
 }

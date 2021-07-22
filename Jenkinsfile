@@ -3,8 +3,8 @@
 
 pipeline {
 	
-	//agent any
-	agent { docker { image 'python:3.7-buster' } } 
+	agent any
+	//agent { docker { image 'python:3.7-buster' } } 
 	stages {
 	
 		stage('Build')

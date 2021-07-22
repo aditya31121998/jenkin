@@ -34,11 +34,11 @@ pipeline {
 			echo 'awesome'
 		}
 		
-		always {
+		success{
 			echo 'sucessful now'
 		}
 		
-		always {
+		failure {
 			echo 'failed'
 		}
 	}

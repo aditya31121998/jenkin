@@ -29,4 +29,28 @@ pipeline {
 			}
 		}
 	}
+	post{
+		always {
+			echo 'awesome'
+		}
+		
+		always {
+			echo 'sucessful now'
+		}
+		
+		always {
+			echo 'failed'
+		}
+	}
+		
 }
+
+
+
+
+
+
+
+
+
+

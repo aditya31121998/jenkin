@@ -4,7 +4,7 @@
 pipeline {
 	
 	//agent any
-	agent { docker { image 'maven:3.8.1-openjdk-17-slim' } } 
+	agent { docker { image 'python:3.7-buster' } } 
 	stages {
 	
 		stage('Build')
